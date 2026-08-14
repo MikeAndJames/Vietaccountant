@@ -1,4 +1,4 @@
-// Data Store for Anh Đào Carrick (FCCA) - Chartered Certified Accountant Website
+// Data Store for Anh Đào Carrick (FCCA) - ACCA Certified Accounting Practice
 // ACCREDITATION: ACCA / FCCA (Fellow Chartered Certified Accountant) - Direct Practice
 
 const TRANSLATIONS = {
@@ -9,31 +9,31 @@ const TRANSLATIONS = {
       services: "Accounting & Tax Services",
       sectors: "Sectors We Serve",
       deadlines: "Tax Calendar",
-      offices: "Our Offices",
+      offices: "London Office",
       contact: "Contact",
-      tagline: "ACCA Chartered Certified Accountant"
+      tagline: "ACCA Accountant"
     },
     hero: {
-      badge: "🇬🇧 ACCA Regulated UK Chartered Certified Accountant",
-      title: "Chartered Accounting, Tax & Advisory Services for UK Vietnamese Businesses & Investors",
-      subtitle: "Professional statutory accounting, HMRC tax compliance, company formations, and cross-border business advisory led directly by Mrs. Anh Đào Carrick (BA, PG Cert, MA, FCCA).",
+      badge: "🇬🇧 ACCA Regulated UK Accounting Practice",
+      title: "Accounting, Tax & Advisory Services for UK Vietnamese Businesses & Investors",
+      subtitle: "Professional statutory accounting, HMRC tax compliance, company formations, and business advisory led directly by Mrs. Anh Đào Carrick (BA, PG Cert, MA, FCCA).",
       ctaWhatsApp: "💬 Chat on WhatsApp",
       ctaZalo: "💬 Chat on Zalo",
       ctaConsultation: "Get a Free Quote",
-      stat1Title: "FCCA Chartered Accountant",
+      stat1Title: "FCCA Qualified",
       stat1Desc: "Fellow Member of ACCA (Highest Tier)",
-      stat2Title: "London & Hanoi Offices",
-      stat2Desc: "192 Woodseer Street & Dien Bien Phu",
+      stat2Title: "London Head Office",
+      stat2Desc: "192 Woodseer Street, London E1 5HQ",
       stat3Title: "15+ Years Experience",
-      stat3Desc: "UK, Vietnam & Cross-Border Advisory"
+      stat3Desc: "UK Tax, Accounting & Business Advisory"
     },
     about: {
-      badge: "Principal Chartered Accountant",
+      badge: "Principal Accountant",
       title: "Mrs. Anh Đào Carrick",
-      subtitle: "BA, PG Cert, MA, FCCA | Senior Chartered Certified Accountant",
-      bio1: "Mrs. Anh Đào Carrick is a distinguished Fellow of the Association of Chartered Certified Accountants (FCCA) — the premier global chartered accountancy qualification. Holding postgraduate qualifications from top UK universities, she has dedicated over 15 years to advising businesses, entrepreneurs, and high-net-worth individuals.",
-      bio2: "Operating directly from her practice in London (192 Woodseer Street) and Hanoi, Mrs. Carrick bridges the gap for Vietnamese entrepreneurs running businesses in the UK, as well as international firms expanding between the UK, Vietnam, Australia, and Malaysia with transparent, proactive, and fully compliant accounting strategies.",
-      fccaHighlight: "Qualified with FCCA — The Highest Tier of ACCA Chartered Professional Status",
+      subtitle: "BA, PG Cert, MA, FCCA | Senior Accountant",
+      bio1: "Mrs. Anh Đào Carrick is a distinguished Fellow of the Association of Chartered Certified Accountants (FCCA) — the premier global accounting qualification. Holding postgraduate qualifications from top UK universities, she has dedicated over 15 years to advising businesses, entrepreneurs, and high-net-worth individuals.",
+      bio2: "Operating directly from her London practice at 192 Woodseer Street, Mrs. Carrick assists Vietnamese entrepreneurs running businesses in the UK with clear, proactive, and compliant accounting and tax strategies.",
+      fccaHighlight: "Qualified with FCCA — The Highest Tier of ACCA Professional Status",
       qualification1: "FCCA Fellow Member (Association of Chartered Certified Accountants, UK)",
       qualification2: "Master's Degree & Postgraduate Certifications from UK Universities",
       qualification3: "HMRC Registered Tax Agent & Digital MTD Specialist",
@@ -59,10 +59,10 @@ const TRANSLATIONS = {
       card7Desc: "Financial due diligence, company valuations, business sales/transfers, and restructuring advisory for growing enterprises.",
       card8Title: "Practical UK Accounting Training",
       card8Desc: "Hands-on professional training in UK accounting systems, Xero, QuickBooks, payroll operations, and UK bookkeeping standards.",
-      card9Title: "Cross-Border Legal & Audit Network",
-      card9Desc: "Connecting clients with qualified solicitors, barristers, and statutory auditing partners across the UK, Vietnam, and Australia.",
-      card10Title: "International Business Development",
-      card10Desc: "Strategic cross-border advisory, trade facilitation, and company structuring between the United Kingdom, Malaysia, and Vietnam."
+      card9Title: "Legal & Audit Network Referral",
+      card9Desc: "Connecting clients with qualified solicitors, barristers, and statutory auditing partners for comprehensive business protection.",
+      card10Title: "Business Growth & Development",
+      card10Desc: "Strategic advisory, financial structuring, and business development for entrepreneurs in the United Kingdom."
     },
     sectors: {
       badge: "Industry Expertise",
@@ -76,10 +76,10 @@ const TRANSLATIONS = {
       s3Desc: "SPV Limited Company setups for buy-to-let properties, Capital Gains Tax planning, and rental income accounts.",
       s4Title: "Contractors & Professional Freelancers",
       s4Desc: "IR35 reviews, dividend vs. salary optimization, and low-friction digital bookkeeping via cloud accounting apps.",
-      s5Title: "E-Commerce & Import/Export",
-      s5Desc: "Amazon/Shopify store accounts, cross-border VAT, customs duty compliance, and multi-currency bookkeeping.",
-      s6Title: "Cross-Border Investors & Tech Start-Ups",
-      s6Desc: "UK expansion support for overseas Vietnamese investors, SEIS/EIS tax relief guidance, and holding company structures."
+      s5Title: "E-Commerce & Retail Businesses",
+      s5Desc: "Amazon/Shopify store accounts, VAT compliance, customs duty support, and multi-channel bookkeeping.",
+      s6Title: "Investors & New UK Start-Ups",
+      s6Desc: "UK company setup, financial forecasting, tax number registrations, and proactive business structuring."
     },
     deadlines: {
       badge: "HMRC Compliance",
@@ -99,20 +99,14 @@ const TRANSLATIONS = {
       d4Desc: "Making Tax Digital (MTD) digital submission and payment deadline following the end of each VAT quarter period."
     },
     offices: {
-      badge: "Contact & Locations",
-      title: "London & Hanoi Office Locations",
-      subtitle: "Get in touch directly with Mrs. Anh Đào Carrick (FCCA) in the UK or Vietnam.",
+      badge: "Contact & Head Office",
+      title: "London Office Location & Direct Contact",
+      subtitle: "Get in touch directly with Mrs. Anh Đào Carrick (FCCA) in London or via WhatsApp / Zalo.",
       londonTitle: "🇬🇧 London Head Office (United Kingdom)",
-      londonWoodseer: "London Office",
+      londonWoodseer: "London Head Office",
       londonWoodseerAddr: "192 Woodseer Street, London, E1 5HQ, United Kingdom",
-      hanoiTitle: "🇻🇳 Hanoi Offices (Vietnam)",
-      hanoiHead: "Hanoi Head Office",
-      hanoiHeadAddr: "No.28 (3B5), 28B Dien Bien Phu Str, Ba Dinh Ward, Hanoi, Vietnam",
-      hanoiBiz: "Hanoi Business Office",
-      hanoiBizAddr: "100 Dong Co Str, Tay Ho Ward, Hanoi, Vietnam",
       phoneUKLabel: "UK Phone / WhatsApp / Viber / Zalo:",
       freephoneLabel: "UK Freephone Toll-Free:",
-      phoneVNLabel: "Vietnam Phone / Zalo:",
       emailLabel: "Official Email Enquiries:",
       hoursTitle: "Working Hours",
       hoursDesc: "Monday – Friday: 09:00 – 17:30 GMT | Saturday: By Appointment"
@@ -134,12 +128,12 @@ const TRANSLATIONS = {
       serviceOption8: "Mergers, Acquisitions & Training",
       messageLabel: "Brief details about your business or inquiry",
       submitWhatsApp: "📱 Send via WhatsApp (+44 749 013 0207)",
-      submitZalo: "💬 Send via Zalo (+84 94 9686 098)",
+      submitZalo: "💬 Send via Zalo (+44 749 013 0207)",
       note: "Your information is strictly confidential under ACCA professional code of conduct."
     },
     footer: {
       rights: "© 2026 Anh Đào Carrick (FCCA). All Rights Reserved.",
-      fccaNotice: "Chartered Certified Accounting Practice directed by Mrs. Anh Đào Carrick (BA, PG Cert, MA, FCCA). Regulated under ACCA professional accounting standards.",
+      fccaNotice: "Accounting Practice directed by Mrs. Anh Đào Carrick (BA, PG Cert, MA, FCCA). Regulated under ACCA professional accounting standards.",
       quickLinks: "Quick Navigation",
       legalNotice: "London Office: 192 Woodseer Street, London, E1 5HQ, United Kingdom."
     }
@@ -154,28 +148,28 @@ const TRANSLATIONS = {
       deadlines: "Lịch Thuế HMRC",
       offices: "Văn Phòng",
       contact: "Liên Hệ",
-      tagline: "Kế Toán Công Chứng Anh Quốc (ACCA)"
+      tagline: "Kế Toán ACCA Chuẩn Anh Quốc"
     },
     hero: {
-      badge: "🇬🇧 Văn Phòng Kế Toán Công Chứng ACCA Chuẩn Anh Quốc",
+      badge: "🇬🇧 Văn Phòng Kế Toán ACCA Chuẩn Anh Quốc",
       title: "Dịch Vụ Kế Toán & Khai Thuế UK Hàng Đầu Cho Doanh Nghiệp & Cộng Đồng Việt",
-      subtitle: "Báo cáo tài chính, quyết toán thuế HMRC, thành lập công ty và tư vấn kinh doanh xuyên biên giới do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp phụ trách.",
+      subtitle: "Báo cáo tài chính, quyết toán thuế HMRC, thành lập công ty và tư vấn kinh doanh do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp phụ trách.",
       ctaWhatsApp: "💬 Chat qua WhatsApp",
       ctaZalo: "💬 Chat qua Zalo",
       ctaConsultation: "Nhận Báo Giá Miễn Phí",
-      stat1Title: "Kế Toán Công Chứng FCCA",
+      stat1Title: "Kế Toán FCCA",
       stat1Desc: "Bằng cấp cao cấp nhất của Hiệp hội ACCA Anh Quốc",
-      stat2Title: "Hiện Diện Song Song",
-      stat2Desc: "Văn phòng tại London (Woodseer St) & Hà Nội",
+      stat2Title: "Trụ Sở Chính London",
+      stat2Desc: "192 Woodseer Street, London E1 5HQ",
       stat3Title: "15+ Năm Kinh Nghiệm",
       stat3Desc: "Chuyên sâu về thuế & pháp lý kinh doanh UK"
     },
     about: {
       badge: "Giám Đốc & Kế Toán Trưởng",
       title: "Bà Anh Đào Carrick",
-      subtitle: "BA, PG Cert, MA, FCCA | Kế Toán Trưởng Công Chứng Cấp Cao",
+      subtitle: "BA, PG Cert, MA, FCCA | Kế Toán Trưởng Cấp Cao",
       bio1: "Bà Anh Đào Carrick là Hội viên Cao cấp của Hiệp hội Kế toán Công chứng Hoàng gia Anh (FCCA - Fellow Chartered Certified Accountant) — tổ chức kế toán chuyên nghiệp danh giá hàng đầu thế giới. Với các văn bằng Thạc sĩ và sau đại học tại các trường đại học uy tín của Vương Quốc Anh, bà có hơn 15 năm kinh nghiệm thực tiễn đồng hành cùng các doanh nghiệp và kiều bào.",
-      bio2: "Hoạt động trực tiếp từ văn phòng tại London (192 Woodseer Street) và Hà Nội, Bà Anh Đào Carrick mang lại giải pháp kế toán rõ ràng, chính xác, tiết kiệm thuế tối đa và đảm bảo 100% tuân thủ pháp luật Anh Quốc cho các doanh nghiệp, tiệm nail, nhà hàng và nhà đầu tư xuyên biên giới.",
+      bio2: "Hoạt động trực tiếp từ văn phòng tại London (192 Woodseer Street), Bà Anh Đào Carrick mang lại giải pháp kế toán rõ ràng, chính xác, tiết kiệm thuế tối đa và đảm bảo 100% tuân thủ pháp luật Anh Quốc cho các doanh nghiệp, tiệm nail, nhà hàng và nhà đầu tư tại Anh.",
       fccaHighlight: "Được Cấp Chứng Chỉ Hành Nghề Kế Toán Trưởng FCCA Cao Cấp Nhất của ACCA",
       qualification1: "Hội viên Cao cấp FCCA (Hiệp hội Kế toán Công chứng Anh Quốc - ACCA)",
       qualification2: "Văn bằng Thạc sĩ (MA) & Chứng chỉ Sau Đại học (PG Cert) tại Anh Quốc",
@@ -202,10 +196,10 @@ const TRANSLATIONS = {
       card7Desc: "Thẩm định tài chính (Due Diligence), định giá tiệm/doanh nghiệp khi sang nhượng, hỗ trợ hợp đồng và tái cơ cấu doanh nghiệp.",
       card8Title: "Đào Tạo Kế Toán Thực Hành Chuẩn UK",
       card8Desc: "Khóa học thực chiến kế toán Anh Quốc, sử dụng thành thạo phần mềm kế toán Xero, QuickBooks, xử lý hồ sơ thuế thực tế cho học viên.",
-      card9Title: "Mạng Lưới Luật Sư & Kiểm Toán Quốc Tế",
-      card9Desc: "Kết nối dịch vụ kiểm toán độc lập và giới thiệu luật sư uy tín xử lý mọi vấn đề pháp lý xuyên biên giới giữa Anh, Việt Nam và Úc.",
-      card10Title: "Phát Triển Kinh Doanh Quốc Tế",
-      card10Desc: "Tư vấn chiến lược mở rộng thị trường, đầu tư thương mại và xúc tiến kinh doanh giữa Vương Quốc Anh, Malaysia và Việt Nam."
+      card9Title: "Mạng Lưới Luật Sư & Kiểm Toán Uy Tín",
+      card9Desc: "Kết nối dịch vụ kiểm toán độc lập và giới thiệu luật sư uy tín xử lý mọi vấn đề pháp lý doanh nghiệp tại Anh Quốc.",
+      card10Title: "Phát Triển & Mở Rộng Doanh Nghiệp",
+      card10Desc: "Tư vấn chiến lược mở rộng quy mô, tối ưu tài chính và xúc tiến kinh doanh bền vững tại Vương Quốc Anh."
     },
     sectors: {
       badge: "Lĩnh Vực Chuyên Nghiệp",
@@ -219,10 +213,10 @@ const TRANSLATIONS = {
       s3Desc: "Thành lập công ty SPV mua nhà cho thuê (Buy-to-Let), tối ưu thuế chuyển nhượng, thuế thặng dư vốn (CGT) và khấu hao.",
       s4Title: "Nhà Thầu Độc Lập & Chuyên Gia (Contractors)",
       s4Desc: "Tư vấn quy chế IR35, cơ cấu tối ưu giữa tiền lương và cổ tức (Dividends) để tiết kiệm thuế thu nhập cá nhân tối đa.",
-      s5Title: "Thương Mại Điện Tử & Xuất Nhập Khẩu",
-      s5Desc: "Kế toán cho gian hàng Amazon, eBay, TikTok Shop, xử lý thuế VAT nhập khẩu và thông quan hàng hóa xuyên biên giới.",
+      s5Title: "Thương Mại Điện Tử & Bán Lẻ",
+      s5Desc: "Kế toán cho gian hàng Amazon, eBay, TikTok Shop, xử lý thuế VAT và sổ sách bán hàng đa kênh.",
       s6Title: "Nhà Đầu Tư & Doanh Nghiệp Mới Khởi Nghiệp",
-      s6Desc: "Hỗ trợ nhà đầu tư từ Việt Nam sang Anh, lập kế hoạch tài chính, xin mã số thuế và báo cáo minh bạch dòng tiền."
+      s6Desc: "Hỗ trợ thành lập công ty, lập kế hoạch tài chính, xin mã số thuế và báo cáo minh bạch dòng tiền."
     },
     deadlines: {
       badge: "Lưu Ý Quan Trọng",
@@ -243,19 +237,13 @@ const TRANSLATIONS = {
     },
     offices: {
       badge: "Thông Tin Liên Hệ & Trụ Sở",
-      title: "Địa Chỉ Văn Phòng London & Hà Nội",
-      subtitle: "Quý khách có thể liên hệ trực tiếp với Bà Anh Đào Carrick tại Vương Quốc Anh hoặc Việt Nam.",
+      title: "Trụ Sở Tại London & Kênh Liên Hệ",
+      subtitle: "Quý khách có thể liên hệ trực tiếp với Bà Anh Đào Carrick tại London hoặc qua Zalo / WhatsApp.",
       londonTitle: "🇬🇧 Trụ Sở Chính Tại London (Vương Quốc Anh)",
-      londonWoodseer: "Trụ Sở Chính London",
+      londonWoodseer: "Địa Chỉ Văn Phòng London:",
       londonWoodseerAddr: "192 Woodseer Street, London, E1 5HQ, Vương Quốc Anh",
-      hanoiTitle: "🇻🇳 Văn Phòng Tại Hà Nội (Việt Nam)",
-      hanoiHead: "Trụ Sở Chính Hà Nội",
-      hanoiHeadAddr: "Số 28 (Dãy B5), 28B Điện Biên Phủ, P. Điện Biên, Q. Ba Đình, Hà Nội",
-      hanoiBiz: "Văn Phòng Kinh Doanh",
-      hanoiBizAddr: "100 Đồng Cổ, P. Bưởi, Q. Tây Hồ, Hà Nội",
       phoneUKLabel: "Điện Thoại / WhatsApp / Viber / Zalo (UK):",
       freephoneLabel: "Điện Thoại Miễn Phí (UK Freephone):",
-      phoneVNLabel: "Điện Thoại Tại Việt Nam / Zalo:",
       emailLabel: "Email Tiếp Nhận Hồ Sơ:",
       hoursTitle: "Giờ Làm Việc",
       hoursDesc: "Thứ Hai – Thứ Sáu: 09:00 – 17:30 (Giờ London) | Thứ Bảy: Hẹn Trước"
@@ -277,12 +265,12 @@ const TRANSLATIONS = {
       serviceOption8: "Mua bán, định giá doanh nghiệp & Đào tạo kế toán",
       messageLabel: "Nội dung tóm tắt nhu cầu của Quý khách",
       submitWhatsApp: "📱 Gửi Yêu Cầu qua WhatsApp (+44 749 013 0207)",
-      submitZalo: "💬 Gửi Yêu Cầu qua Zalo (+84 94 9686 098)",
+      submitZalo: "💬 Gửi Yêu Cầu qua Zalo (+44 749 013 0207)",
       note: "Mọi thông tin của Quý khách được bảo mật nghiêm ngặt theo chuẩn mực đạo đức nghề nghiệp của ACCA."
     },
     footer: {
       rights: "© 2026 Anh Đào Carrick (FCCA). Bảo lưu mọi quyền.",
-      fccaNotice: "Văn phòng Kế toán Công chứng do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp điều hành. Hoạt động tuân thủ theo tiêu chuẩn đạo đức và nghề nghiệp của Hiệp hội ACCA Anh Quốc.",
+      fccaNotice: "Văn phòng Kế toán do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp điều hành. Hoạt động tuân thủ theo tiêu chuẩn đạo đức và nghề nghiệp của Hiệp hội ACCA Anh Quốc.",
       quickLinks: "Liên Kết Nhanh",
       legalNotice: "Trụ sở chính: 192 Woodseer Street, London, E1 5HQ, Vương Quốc Anh."
     }
