@@ -1,0 +1,58 @@
+====================================================================
+ANH ĐÀO CARRICK (FCCA) ACCOUNTING WEBSITE - DEPLOYMENT FOR MIKE
+====================================================================
+
+Hi Mike! Mum's accounting practice website is completely built with:
+- 100% ACCA / FCCA accredited branding (Direct practice - No C&T / No ICAEW)
+- Mum's Direct UK Address: 192 Woodseer Street, London, E1 5HQ
+- Mum's Hanoi Offices: 28B Dien Bien Phu (Ba Dinh) & 100 Dong Co (Tay Ho)
+- Exact Phone Numbers & Channels:
+  * UK Phone / WhatsApp / Zalo: +44 749 013 0207
+  * UK Freephone: +44 800 002 9069
+  * Vietnam Phone / Zalo: +84 94 9686 098
+  * Email: info@carrickgroup.co.uk
+- Bilingual instant Vietnamese 🇻🇳 / English 🇬🇧 switching
+- Complete 10-Service accounting, tax, payroll, M&A & company setup suite
+- HMRC tax deadlines calendar & quotation modal
+- Repository: https://github.com/MikeAndJames/Vietaccountant
+
+Follow these simple steps to deploy:
+
+--------------------------------------------------------------------
+STEP 1: Push to GitHub
+--------------------------------------------------------------------
+In terminal inside the cataccountants folder, run:
+   git init
+   git add .
+   git commit -m "Launch Anh Dao Carrick ACCA website"
+   git branch -M main
+   git remote add origin https://github.com/MikeAndJames/Vietaccountant.git
+   git push -u origin main
+
+--------------------------------------------------------------------
+STEP 2: Deploy to Vercel (majic2)
+--------------------------------------------------------------------
+1. Log into Vercel: https://vercel.com/majic2
+2. Click "Add New..." -> "Project"
+3. Import "Vietaccountant" repo and click "Deploy"
+4. Done! Your preview link (e.g. vietaccountant.vercel.app) is instantly live.
+
+--------------------------------------------------------------------
+STEP 3: Connect Custom Domain in GoDaddy
+--------------------------------------------------------------------
+1. In GoDaddy DNS Management for your domain:
+2. Add/Edit the A record:
+   - Type: A
+   - Name: @
+   - Value: 76.76.21.21
+   - TTL: 1 Hour
+3. Add/Edit the CNAME record:
+   - Type: CNAME
+   - Name: www
+   - Value: cname.vercel-dns.com
+   - TTL: 1 Hour
+4. In Vercel Project -> Settings -> Domains -> Add domain & www.
+
+====================================================================
+All Done! Mum's ACCA accounting practice is live worldwide!
+====================================================================

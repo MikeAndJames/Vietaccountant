@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anh Đào Carrick (FCCA) | Dịch Vụ Kế Toán & Khai Thuế UK | ACCA Chartered Accountant</title>
+  <meta name="description" content="Văn phòng kế toán công chứng ACCA tại London và Hà Nội do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp điều hành. Báo cáo tài chính, thuế doanh nghiệp CT600, Self-Assessment, VAT MTD và thành lập công ty UK." />
+  <meta name="keywords" content="ke toan anh quoc, viet accountant london, anh dao carrick, acca accountant london, khai thue uk, thue nail salon uk, bao cao tai chinh uk" />
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Anh Đào Carrick (FCCA) - UK Chartered Certified Accountant" />
+  <meta property="og:description" content="Accounting, Tax & Advisory Solutions for Vietnamese Entrepreneurs in the UK. Led directly by Mrs. Anh Đào Carrick, FCCA." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://carrickgroup.co.uk" />
+
+  <!-- Schema.org JSON-LD Structured Data for Local Accounting Practice -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "Anh Đào Carrick (FCCA) - Chartered Certified Accountant",
+    "telephone": "+447490130207",
+    "email": "info@carrickgroup.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "192 Woodseer Street",
+      "addressLocality": "London",
+      "postalCode": "E1 5HQ",
+      "addressCountry": "GB"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Anh Đào Carrick",
+      "jobTitle": "Fellow Chartered Certified Accountant (FCCA)",
+      "alumniOf": "Association of Chartered Certified Accountants (ACCA)"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <div class="brand-mark">AC</div>
+        <div class="brand-text">
+          <span class="brand-name">ANH ĐÀO <span>CARRICK</span></span>
+          <span class="brand-sub" data-i18n="nav.tagline">ACCA Chartered Certified Accountant</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" data-i18n="nav.home">Trang Chủ</a></li>
+        <li><a href="#about" data-i18n="nav.about">Bà Anh Đào Carrick</a></li>
+        <li><a href="#services" data-i18n="nav.services">Dịch Vụ Kế Toán</a></li>
+        <li><a href="#sectors" data-i18n="nav.sectors">Ngành Nghề</a></li>
+        <li><a href="#deadlines" data-i18n="nav.deadlines">Lịch Thuế</a></li>
+        <li><a href="#offices" data-i18n="nav.offices">Văn Phòng</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Liên Hệ</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button id="lang-toggle-btn" class="lang-btn" title="Switch website interface to English">
+          🇬🇧 <span>Switch to English</span>
+        </button>
+        <button class="btn btn-gold btn-sm" onclick="openConsultationModal()" data-i18n="hero.ctaConsultation">
+          Nhận Báo Giá
+        </button>
+        <div class="mobile-toggle" id="mobile-menu-toggle">☰</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px;">
+            <span class="section-badge" data-i18n="hero.badge">🇬🇧 Văn Phòng Kế Toán Công Chứng ACCA Chuẩn Anh Quốc</span>
+            <span class="acca-pill">✓ ACCA / FCCA Certified</span>
+          </div>
+
+          <h1 data-i18n="hero.title">Dịch Vụ Kế Toán & Khai Thuế UK Hàng Đầu Cho Doanh Nghiệp & Cộng Đồng Việt</h1>
+          <p data-i18n="hero.subtitle">Báo cáo tài chính, quyết toán thuế HMRC, thành lập công ty và tư vấn kinh doanh xuyên biên giới do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp phụ trách.</p>
+          
+          <div class="hero-ctas">
+            <a href="https://wa.me/447490130207" target="_blank" class="btn btn-wa" data-i18n="hero.ctaWhatsApp">💬 Chat qua WhatsApp</a>
+            <a href="https://zalo.me/84949686098" target="_blank" class="btn btn-zalo" data-i18n="hero.ctaZalo">💬 Chat qua Zalo</a>
+            <button class="btn btn-gold" onclick="openConsultationModal()" data-i18n="hero.ctaConsultation">Nhận Báo Giá Miễn Phí</button>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-box">
+              <h4 data-i18n="hero.stat1Title">Kế Toán Công Chứng FCCA</h4>
+              <p data-i18n="hero.stat1Desc">Bằng cấp cao cấp nhất của Hiệp hội ACCA Anh Quốc</p>
+            </div>
+            <div class="stat-box">
+              <h4 data-i18n="hero.stat2Title">Hiện Diện Song Song</h4>
+              <p data-i18n="hero.stat2Desc">Văn phòng tại London & Hà Nội</p>
+            </div>
+            <div class="stat-box">
+              <h4 data-i18n="hero.stat3Title">15+ Năm Kinh Nghiệm</h4>
+              <p data-i18n="hero.stat3Desc">Chuyên sâu về thuế & pháp lý kinh doanh UK</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <div class="hero-card-icon">🏛️</div>
+            <div>
+              <h3>Anh Đào Carrick (FCCA)</h3>
+              <span class="acca-pill" style="font-size: 0.75rem;">Regulated under ACCA</span>
+            </div>
+          </div>
+          <p>Đồng hành cùng hàng trăm doanh nghiệp người Việt tại Anh Quốc tối ưu hóa dòng tiền, tiết kiệm thuế hợp pháp và an tâm kinh doanh.</p>
+          
+          <ul class="hero-card-list">
+            <li><span>✓</span> Quyết toán thuế Doanh nghiệp (CT600) & Self-Assessment</li>
+            <li><span>✓</span> Kê khai thuế VAT theo chuẩn Making Tax Digital (MTD)</li>
+            <li><span>✓</span> Bảng lương nhân viên (PAYE) & Hưu trí tự động</li>
+            <li><span>✓</span> Thành lập công ty UK lấy mã số ngay trong ngày</li>
+          </ul>
+
+          <button class="btn btn-outline-gold" style="width: 100%;" onclick="openConsultationModal('Kế toán trọn gói')">
+            Yêu Cầu Tư Vấn Ngay ➔
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Principal Section (ACCA / FCCA Focused) -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrapper">
+          <div style="background: linear-gradient(135deg, #0B1E36 0%, #071527 100%); padding: 40px 30px; text-align: center; border-radius: var(--radius-lg);">
+            <div style="font-size: 4.5rem; margin-bottom: 16px;">👩‍💼</div>
+            <h3 style="font-family: var(--font-heading); color: var(--color-gold); font-size: 1.6rem; margin-bottom: 6px;">Anh Đào Carrick</h3>
+            <p style="color: var(--color-gold-light); font-weight: 700; font-size: 0.95rem; margin-bottom: 20px;">BA, PG Cert, MA, FCCA</p>
+            
+            <div style="background: rgba(0, 168, 107, 0.15); border: 1px solid var(--color-emerald); padding: 12px; border-radius: var(--radius-md); text-align: left; margin-bottom: 16px;">
+              <p style="color: #A7F3D0; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px;">🏆 ACCA / FCCA Professional Standing</p>
+              <p style="color: var(--color-text-muted); font-size: 0.8rem; margin: 0;">Fellow Member of Association of Chartered Certified Accountants (UK)</p>
+            </div>
+
+            <div style="display: flex; gap: 8px; justify-content: center;">
+              <a href="https://wa.me/447490130207" target="_blank" class="btn btn-wa btn-sm" style="flex: 1;">WhatsApp</a>
+              <a href="https://zalo.me/84949686098" target="_blank" class="btn btn-zalo btn-sm" style="flex: 1;">Zalo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-badge" data-i18n="about.badge">Giám Đốc & Kế Toán Trưởng</span>
+          <h2 data-i18n="about.title">Bà Anh Đào Carrick</h2>
+          <h4 data-i18n="about.subtitle">BA, PG Cert, MA, FCCA | Kế Toán Trưởng Công Chứng Cấp Cao</h4>
+          
+          <p data-i18n="about.bio1">Bà Anh Đào Carrick là Hội viên Cao cấp của Hiệp hội Kế toán Công chứng Hoàng gia Anh (FCCA - Fellow Chartered Certified Accountant) — tổ chức kế toán chuyên nghiệp danh giá hàng đầu thế giới. Với các văn bằng Thạc sĩ và sau đại học tại các trường đại học uy tín của Vương Quốc Anh, bà có hơn 15 năm kinh nghiệm thực tiễn đồng hành cùng các doanh nghiệp và kiều bào.</p>
+          <p data-i18n="about.bio2">Hoạt động trực tiếp từ văn phòng tại London (192 Woodseer Street) và Hà Nội, Bà Anh Đào Carrick mang lại giải pháp kế toán rõ ràng, chính xác, tiết kiệm thuế tối đa và đảm bảo 100% tuân thủ pháp luật Anh Quốc cho các doanh nghiệp, tiệm nail, nhà hàng và nhà đầu tư xuyên biên giới.</p>
+
+          <div class="qual-grid">
+            <div class="qual-item">
+              <span class="check-icon">✓</span>
+              <p data-i18n="about.qualification1">Hội viên Cao cấp FCCA (Hiệp hội Kế toán Công chứng Anh Quốc - ACCA)</p>
+            </div>
+            <div class="qual-item">
+              <span class="check-icon">✓</span>
+              <p data-i18n="about.qualification2">Văn bằng Thạc sĩ (MA) & Chứng chỉ Sau Đại học (PG Cert) tại Anh Quốc</p>
+            </div>
+            <div class="qual-item">
+              <span class="check-icon">✓</span>
+              <p data-i18n="about.qualification3">Đại lý Thuế được HMRC ủy quyền chính thức (HMRC Registered Tax Agent)</p>
+            </div>
+            <div class="qual-item">
+              <span class="check-icon">✓</span>
+              <p data-i18n="about.qualification4">Chuyên gia tối ưu thuế & bảo vệ quyền lợi doanh nghiệp vừa và nhỏ (SMEs)</p>
+            </div>
+          </div>
+
+          <button class="btn btn-gold" onclick="openConsultationModal('Tư vấn với Bà Anh Đào Carrick')">
+            Đặt Lịch Tư Vấn Trực Tiếp ➔
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive Services Section (10 Sourced Services) -->
+  <section id="services" class="section-padding" style="background: var(--color-primary-navy);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n="services.badge">Dịch Vụ Toàn Diện</span>
+        <h2 data-i18n="services.title">Các Dịch Vụ Kế Toán & Thuế Cốt Lõi</h2>
+        <p data-i18n="services.subtitle">Dịch vụ minh bạch, chính xác, tận tâm, giúp doanh nghiệp yên tâm phát triển kinh doanh bền vững.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">📊</div>
+              <span class="service-number">01</span>
+            </div>
+            <h3 data-i18n="services.card1Title">Kế Toán Trọn Gói & Báo Cáo Tài Chính Năm</h3>
+            <p data-i18n="services.card1Desc">Lập báo cáo tài chính năm nộp Companies House và HMRC, ghi chép sổ sách kế toán (Bookkeeping), báo cáo quản trị và kiểm soát dòng tiền.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Báo cáo tài chính năm & Bookkeeping')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">📑</div>
+              <span class="service-number">02</span>
+            </div>
+            <h3 data-i18n="services.card2Title">Quyết Toán Thuế Doanh Nghiệp (CT600) & Thuế Cá Nhân</h3>
+            <p data-i18n="services.card2Desc">Khai thuế thu nhập doanh nghiệp (Corporation Tax) và thuế thu nhập cá nhân (Self-Assessment) cho chủ tiệm, giám đốc, tối ưu các khoản giảm trừ hợp pháp.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Khai thuế Doanh nghiệp CT600 & Self-Assessment')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">🏷️</div>
+              <span class="service-number">03</span>
+            </div>
+            <h3 data-i18n="services.card3Title">Kê Khai Thuế GTGT (VAT) & Chuẩn MTD</h3>
+            <p data-i18n="services.card3Desc">Đăng ký mã số VAT, tư vấn phương pháp VAT (Flat Rate Scheme / Standard Scheme), nộp tờ khai VAT định kỳ theo chuẩn kỹ thuật số Making Tax Digital.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Khai thuế VAT & MTD')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">👥</div>
+              <span class="service-number">04</span>
+            </div>
+            <h3 data-i18n="services.card4Title">Quản Lý Bảng Lương (PAYE) & Lương Hưu</h3>
+            <p data-i18n="services.card4Desc">Tính lương hàng tháng (Payroll), xuất phiếu lương (Payslips), tờ khai P60/P45, báo cáo thời gian thực RTI tới HMRC và đăng ký quỹ hưu trí bắt buộc.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Quản lý bảng lương PAYE')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">🏢</div>
+              <span class="service-number">05</span>
+            </div>
+            <h3 data-i18n="services.card4Title">Thành Lập Công Ty UK & Mở Tài Khoản Ngân Hàng</h3>
+            <p data-i18n="services.card5Desc">Đăng ký thành lập công ty TNHH (Limited) lấy mã số ngay trong ngày, cấu trúc cổ phần, cung cấp địa chỉ văn phòng tại London và hỗ trợ mở tài khoản ngân hàng.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Thành lập công ty UK')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">🛡️</div>
+              <span class="service-number">06</span>
+            </div>
+            <h3 data-i18n="services.card6Title">Bảo Hộ Sở Hữu Trí Tuệ & Đăng Ký Thương Hiệu</h3>
+            <p data-i18n="services.card6Desc">Tư vấn và nộp đơn đăng ký bảo hộ nhãn hiệu, logo, thương hiệu độc quyền tại Cục Sở hữu Trí tuệ Anh Quốc (UKIPO) và quốc tế.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Bảo hộ sở hữu trí tuệ & Thương hiệu')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">🤝</div>
+              <span class="service-number">07</span>
+            </div>
+            <h3 data-i18n="services.card7Title">Tư Vấn Mua Bán, Sáp Nhập & Định Giá Doanh Nghiệp</h3>
+            <p data-i18n="services.card7Desc">Thẩm định tài chính (Due Diligence), định giá tiệm/doanh nghiệp khi sang nhượng, hỗ trợ hợp đồng và tái cơ cấu doanh nghiệp.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Mua bán, định giá doanh nghiệp & Sang nhượng tiệm')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">🎓</div>
+              <span class="service-number">08</span>
+            </div>
+            <h3 data-i18n="services.card8Title">Đào Tạo Kế Toán Thực Hành Chuẩn UK</h3>
+            <p data-i18n="services.card8Desc">Khóa học thực chiến kế toán Anh Quốc, sử dụng thành thạo phần mềm kế toán Xero, QuickBooks, xử lý hồ sơ thuế thực tế cho học viên.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Đào tạo kế toán thực hành UK')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 9 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">⚖️</div>
+              <span class="service-number">09</span>
+            </div>
+            <h3 data-i18n="services.card9Title">Mạng Lưới Luật Sư & Kiểm Toán Quốc Tế</h3>
+            <p data-i18n="services.card9Desc">Kết nối dịch vụ kiểm toán độc lập và giới thiệu luật sư uy tín xử lý mọi vấn đề pháp lý xuyên biên giới giữa Anh, Việt Nam và Úc.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Kết nối luật sư & Kiểm toán xuyên biên giới')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+
+        <!-- Service 10 -->
+        <div class="service-card">
+          <div>
+            <div class="service-card-top">
+              <div class="service-icon-box">🌐</div>
+              <span class="service-number">10</span>
+            </div>
+            <h3 data-i18n="services.card10Title">Phát Triển Kinh Doanh Quốc Tế</h3>
+            <p data-i18n="services.card10Desc">Tư vấn chiến lược mở rộng thị trường, đầu tư thương mại và xúc tiến kinh doanh giữa Vương Quốc Anh, Malaysia và Việt Nam.</p>
+          </div>
+          <div class="service-card-action">
+            <button class="btn-inquire" onclick="openConsultationModal('Phát triển kinh doanh quốc tế UK - VN - Malaysia')">Nhận Báo Giá ➔</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectors Section -->
+  <section id="sectors" class="section-padding sectors-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n="sectors.badge">Lĩnh Vực Chuyên Nghiệp</span>
+        <h2 data-i18n="sectors.title">Các Ngành Nghề Chúng Tôi Phục Vụ</h2>
+        <p data-i18n="sectors.subtitle">Am hiểu đặc thù kinh doanh thực tế của cộng đồng người Việt tại Anh Quốc.</p>
+      </div>
+
+      <div class="sectors-grid">
+        <div class="sector-card">
+          <div class="sector-icon">💅</div>
+          <h3 data-i18n="sectors.s1Title">Tiệm Nails & Thẩm Mỹ Viện</h3>
+          <p data-i18n="sectors.s1Desc">Gói kế toán chuyên biệt cho tiệm nail, xử lý thuế thợ (Self-employed / Chair rental), tối ưu VAT và chi phí nguyên vật liệu.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🍜</div>
+          <h3 data-i18n="sectors.s2Title">Nhà Hàng, Quán Ăn & Takeaway</h3>
+          <p data-i18n="sectors.s2Desc">Tích hợp hệ thống máy tính tiền POS, quản lý chi phí đầu vào, kiểm soát VAT và kế toán lương nhân viên bếp & phục vụ.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🏡</div>
+          <h3 data-i18n="sectors.s3Title">Chủ Nhà Cho Thuê & Đầu Tư Bất Động Sản</h3>
+          <p data-i18n="sectors.s3Desc">Thành lập công ty SPV mua nhà cho thuê (Buy-to-Let), tối ưu thuế chuyển nhượng, thuế thặng dư vốn (CGT) và khấu hao.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">💻</div>
+          <h3 data-i18n="sectors.s4Title">Nhà Thầu Độc Lập & Chuyên Gia</h3>
+          <p data-i18n="sectors.s4Desc">Tư vấn quy chế IR35, cơ cấu tối ưu giữa tiền lương và cổ tức (Dividends) để tiết kiệm thuế thu nhập cá nhân tối đa.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">📦</div>
+          <h3 data-i18n="sectors.s5Title">Thương Mại Điện Tử & Xuất Nhập Khẩu</h3>
+          <p data-i18n="sectors.s5Desc">Kế toán cho gian hàng Amazon, eBay, TikTok Shop, xử lý thuế VAT nhập khẩu và thông quan hàng hóa xuyên biên giới.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🚀</div>
+          <h3 data-i18n="sectors.s6Title">Nhà Đầu Tư & Doanh Nghiệp Mới Khởi Nghiệp</h3>
+          <p data-i18n="sectors.s6Desc">Hỗ trợ nhà đầu tư từ Việt Nam sang Anh, lập kế hoạch tài chính, xin mã số thuế và báo cáo minh bạch dòng tiền.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HMRC Tax Deadlines Section -->
+  <section id="deadlines" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n="deadlines.badge">Lưu Ý Quan Trọng</span>
+        <h2 data-i18n="deadlines.title">Các Mốc Hạn Thuế Quan Trọng Của HMRC</h2>
+        <p data-i18n="deadlines.subtitle">Đừng để bị phạt oan do nộp muộn — Bà Anh Đào Carrick (FCCA) sẽ quản lý lịch trình thuế cho bạn.</p>
+      </div>
+
+      <div class="deadlines-grid">
+        <div class="deadline-card">
+          <div class="deadline-date" data-i18n="deadlines.d1Title">31 Tháng 1 Hàng Năm</div>
+          <div class="deadline-title" data-i18n="deadlines.d1Subtitle">Hạn Chót Khai Thuế Cá Nhân (Self-Assessment)</div>
+          <div class="deadline-desc" data-i18n="deadlines.d1Desc">Hạn nộp tờ khai thuế thu nhập cá nhân qua mạng cho năm thuế trước và thanh toán số thuế còn nợ + tạm ứng thuế kỳ 1.</div>
+        </div>
+
+        <div class="deadline-card">
+          <div class="deadline-date" data-i18n="deadlines.d2Title">9 Tháng Sau Ngày Khóa Sổ</div>
+          <div class="deadline-title" data-i18n="deadlines.d2Subtitle">Hạn Nộp Thuế Doanh Nghiệp (Corporation Tax)</div>
+          <div class="deadline-desc" data-i18n="deadlines.d2Desc">Doanh nghiệp phải thanh toán tiền thuế Corporation Tax cho HMRC chậm nhất là 9 tháng 1 ngày sau khi kết thúc năm tài chính.</div>
+        </div>
+
+        <div class="deadline-card">
+          <div class="deadline-date" data-i18n="deadlines.d3Title">12 Tháng Sau Ngày Khóa Sổ</div>
+          <div class="deadline-title" data-i18n="deadlines.d3Subtitle">Hạn Nộp Tờ Khai CT600 & Báo Cáo Năm</div>
+          <div class="deadline-desc" data-i18n="deadlines.d3Desc">Hạn nộp báo cáo tài chính lên Companies House (trong 9 tháng) và nộp tờ khai quyết toán thuế CT600 lên HMRC (trong 12 tháng).</div>
+        </div>
+
+        <div class="deadline-card">
+          <div class="deadline-date" data-i18n="deadlines.d4Title">Hàng Quý (1 Tháng + 7 Ngày)</div>
+          <div class="deadline-title" data-i18n="deadlines.d4Subtitle">Kê Khai & Nộp Tiền Thuế VAT</div>
+          <div class="deadline-desc" data-i18n="deadlines.d4Desc">Nộp tờ khai VAT kỹ thuật số theo chuẩn MTD và thanh toán số thuế GTGT trong vòng 1 tháng 7 ngày sau khi kết thúc kỳ VAT.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Office & Locations Section (London 192 Woodseer St & Hanoi) -->
+  <section id="offices" class="section-padding contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n="offices.badge">Thông Tin Liên Hệ & Trụ Sở</span>
+        <h2 data-i18n="offices.title">Địa Chỉ Văn Phòng London & Hà Nội</h2>
+        <p data-i18n="offices.subtitle">Quý khách có thể liên hệ trực tiếp với Bà Anh Đào Carrick tại Vương Quốc Anh hoặc Việt Nam.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- London Head Office Card -->
+        <div class="office-card">
+          <div class="office-header">
+            <div class="office-icon">🇬🇧</div>
+            <div>
+              <h3 data-i18n="offices.londonTitle">Trụ Sở Chính Tại London</h3>
+              <span class="acca-pill" style="font-size: 0.78rem;">ACCA Chartered Practice</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.londonWoodseer">Địa Chỉ Văn Phòng London:</span>
+            <div class="contact-value" data-i18n="offices.londonWoodseerAddr">192 Woodseer Street, London, E1 5HQ, Vương Quốc Anh</div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.phoneUKLabel">Điện Thoại / WhatsApp / Viber / Zalo (UK):</span>
+            <div class="contact-value"><a href="tel:+447490130207"><strong>+44 749 013 0207</strong></a></div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.freephoneLabel">Điện Thoại Miễn Phí (UK Freephone):</span>
+            <div class="contact-value"><a href="tel:+448000029069"><strong>+44 800 002 9069</strong></a></div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.emailLabel">Email Tiếp Nhận Hồ Sơ:</span>
+            <div class="contact-value"><a href="mailto:info@carrickgroup.co.uk"><strong>info@carrickgroup.co.uk</strong></a></div>
+          </div>
+        </div>
+
+        <!-- Hanoi Offices Card & Fast Connect -->
+        <div class="office-card">
+          <div class="office-header">
+            <div class="office-icon">🇻🇳</div>
+            <div>
+              <h3 data-i18n="offices.hanoiTitle">Văn Phòng Tại Hà Nội</h3>
+              <span class="acca-pill" style="font-size: 0.78rem;">Đại Diện Việt Nam</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.hanoiHead">Trụ Sở Chính Hà Nội:</span>
+            <div class="contact-value" data-i18n="offices.hanoiHeadAddr">Số 28 (Dãy B5), 28B Điện Biên Phủ, P. Điện Biên, Q. Ba Đình, Hà Nội</div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.hanoiBiz">Văn Phòng Kinh Doanh:</span>
+            <div class="contact-value" data-i18n="offices.hanoiBizAddr">100 Đồng Cổ, P. Bưởi, Q. Tây Hồ, Hà Nội</div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.phoneVNLabel">Điện Thoại Tại Việt Nam / Zalo:</span>
+            <div class="contact-value"><a href="tel:+84949686098"><strong>+84 94 9686 098</strong></a></div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="offices.hoursTitle">Giờ Làm Việc</span>
+            <div class="contact-value" style="font-size: 0.95rem; color: var(--color-text-muted);" data-i18n="offices.hoursDesc">Thứ Hai – Thứ Sáu: 09:00 – 17:30 (Giờ London) | Thứ Bảy: Hẹn Trước</div>
+          </div>
+
+          <div style="margin-top: 24px; display: flex; gap: 10px; flex-direction: column;">
+            <a href="https://wa.me/447490130207" target="_blank" class="btn btn-wa" style="font-size: 0.95rem;">
+              💬 Nhắn tin WhatsApp (+44 749 013 0207)
+            </a>
+            <a href="https://zalo.me/84949686098" target="_blank" class="btn btn-zalo" style="font-size: 0.95rem;">
+              💬 Nhắn tin Zalo (+84 94 9686 098)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consultation & Quote Modal -->
+  <div id="consultation-modal" class="modal-backdrop">
+    <div class="modal-box">
+      <button id="modal-close-btn" class="modal-close">&times;</button>
+      <h3 data-i18n="modal.title">Đăng Ký Tư Vấn Kế Toán & Nhận Báo Giá</h3>
+      <p class="modal-sub" data-i18n="modal.subtitle">Trao đổi trực tiếp với Bà Anh Đào Carrick (FCCA) — Bảo mật thông tin tuyệt đối.</p>
+
+      <form onsubmit="return false;">
+        <div class="form-group">
+          <label data-i18n="modal.nameLabel">Họ và Tên Quý Khách *</label>
+          <input type="text" id="modal-name" class="form-input" placeholder="Ví dụ: Nguyễn Văn A" required />
+        </div>
+
+        <div class="form-group">
+          <label data-i18n="modal.phoneLabel">Số Điện Thoại / Zalo / WhatsApp *</label>
+          <input type="text" id="modal-phone" class="form-input" placeholder="Ví dụ: 07490130207 / 0949686098" required />
+        </div>
+
+        <div class="form-group">
+          <label data-i18n="modal.emailLabel">Địa Chỉ Email *</label>
+          <input type="email" id="modal-email" class="form-input" placeholder="Ví dụ: email@gmail.com" required />
+        </div>
+
+        <div class="form-group">
+          <label data-i18n="modal.serviceLabel">Dịch Vụ Cần Tư Vấn</label>
+          <select id="modal-service" class="form-select">
+            <option value="Kế toán trọn gói & Báo cáo tài chính năm" data-i18n="modal.serviceOption1">Kế toán trọn gói & Báo cáo tài chính năm</option>
+            <option value="Khai thuế Doanh nghiệp (CT600) & Thuế Cá nhân" data-i18n="modal.serviceOption2">Khai thuế Doanh nghiệp (CT600) & Thuế Cá nhân</option>
+            <option value="Kê khai thuế VAT / Chuẩn số Making Tax Digital" data-i18n="modal.serviceOption3">Kê khai thuế VAT / Chuẩn số Making Tax Digital</option>
+            <option value="Thành lập công ty UK & Mở tài khoản ngân hàng" data-i18n="modal.serviceOption4">Thành lập công ty UK & Mở tài khoản ngân hàng</option>
+            <option value="Gói kế toán chuyên biệt cho Tiệm Nail / Nhà Hàng" data-i18n="modal.serviceOption5">Gói kế toán chuyên biệt cho Tiệm Nail / Nhà Hàng</option>
+            <option value="Kế toán thuế Bất động sản / Mua nhà cho thuê" data-i18n="modal.serviceOption6">Kế toán thuế Bất động sản / Mua nhà cho thuê</option>
+            <option value="Đăng ký bảo hộ Thương hiệu & Sở hữu trí tuệ" data-i18n="modal.serviceOption7">Đăng ký bảo hộ Thương hiệu & Sở hữu trí tuệ</option>
+            <option value="Mua bán, định giá doanh nghiệp & Đào tạo kế toán" data-i18n="modal.serviceOption8">Mua bán, định giá doanh nghiệp & Đào tạo kế toán</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label data-i18n="modal.messageLabel">Nội dung tóm tắt nhu cầu của Quý khách</label>
+          <textarea id="modal-message" class="form-textarea" placeholder="Nhập câu hỏi hoặc thông tin doanh nghiệp..."></textarea>
+        </div>
+
+        <div class="modal-actions">
+          <button id="modal-submit-wa" class="btn btn-wa" data-i18n="modal.submitWhatsApp">📱 Gửi qua WhatsApp</button>
+          <button id="modal-submit-zalo" class="btn btn-zalo" data-i18n="modal.submitZalo">💬 Gửi qua Zalo</button>
+        </div>
+
+        <div class="modal-disclaimer" data-i18n="modal.note">
+          Mọi thông tin của Quý khách được bảo mật nghiêm ngặt theo chuẩn mực đạo đức nghề nghiệp của ACCA.
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating Mobile Action Bar -->
+  <div class="floating-contact-bar">
+    <a href="https://wa.me/447490130207" target="_blank" class="fab-btn fab-wa" title="WhatsApp Chat">💬</a>
+    <a href="https://zalo.me/84949686098" target="_blank" class="fab-btn fab-zalo" title="Zalo Chat">Zalo</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <div class="brand-mark" style="width: 36px; height: 36px; font-size: 1rem;">AC</div>
+            <h4 style="margin: 0;">ANH ĐÀO CARRICK (FCCA)</h4>
+          </div>
+          <p data-i18n="footer.fccaNotice">Văn phòng Kế toán Công chứng do Bà Anh Đào Carrick (BA, PG Cert, MA, FCCA) trực tiếp điều hành. Hoạt động tuân thủ theo tiêu chuẩn đạo đức và nghề nghiệp của Hiệp hội ACCA Anh Quốc.</p>
+        </div>
+
+        <div class="footer-links">
+          <h5 data-i18n="footer.quickLinks">Liên Kết Nhanh</h5>
+          <ul>
+            <li><a href="#about" data-i18n="nav.about">Bà Anh Đào Carrick (FCCA)</a></li>
+            <li><a href="#services" data-i18n="nav.services">Dịch Vụ Kế Toán</a></li>
+            <li><a href="#sectors" data-i18n="nav.sectors">Ngành Nghề Hỗ Trợ</a></li>
+            <li><a href="#deadlines" data-i18n="nav.deadlines">Lịch Thuế HMRC</a></li>
+            <li><a href="#offices" data-i18n="nav.offices">Văn Phòng London & Hà Nội</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>ACCA Accreditation</h5>
+          <p style="color: var(--color-text-muted); font-size: 0.85rem; line-height: 1.6; margin-bottom: 12px;">
+            Regulated by the <strong>Association of Chartered Certified Accountants (ACCA)</strong>.
+          </p>
+          <span class="acca-pill" style="font-size: 0.75rem;">FCCA Fellow Chartered Certified</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer.rights">© 2026 Anh Đào Carrick (FCCA). Bảo lưu mọi quyền.</div>
+        <div data-i18n="footer.legalNotice">Trụ sở chính: 192 Woodseer Street, London, E1 5HQ, Vương Quốc Anh.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
